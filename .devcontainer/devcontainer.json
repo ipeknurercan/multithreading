@@ -1,0 +1,6 @@
+{
+  "name": "C Dev Container",
+  "image": "gcc:latest",
+  "extensions": ["ms-vscode.cpptools"],
+  "postCreateCommand": "apt update && apt install -y make gdb"
+}
